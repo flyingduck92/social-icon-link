@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 1em 2em;
+  width: 100%;
+  background: #e9e4ff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-color: rgba(149, 77, 43, 0.5);
+  border-radius: 50%;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s linear;
+}
+
+ul li:last-of-type {
+  margin-right: 0;
+}
+
+ul li:hover {
+  background-color: rgba(238, 201, 184, 0.5);
+}
+
+/* Icon */
+
+.social-facebook {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.social-facebook:before {
+  content: "";
+  position: absolute;
+  top: -0.5em;
+  left: -0.3em;
+  width: 30px;
+  height: 30px;
+  background-image: url(./facebook.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  filter: drop-shadow(0 1px 5px rgba(255, 255, 255, 0.8));
+}
+
+.social-instagram {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.social-instagram:before {
+  content: "";
+  position: absolute;
+  top: -0.6em;
+  left: -0.6em;
+  width: 30px;
+  height: 30px;
+  background-image: url(./instagram.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  filter: drop-shadow(0 1px 5px rgba(255, 255, 255, 0.8));
+}
+
+.social-twitter {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.social-twitter:before {
+  content: "";
+  position: absolute;
+  top: -0.6em;
+  left: -0.6em;
+  width: 30px;
+  height: 30px;
+  background-image: url(./twitter.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  filter: drop-shadow(0 1px 5px rgba(255, 255, 255, 0.8));
+}
+
+.social-youtube {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.social-youtube:before {
+  content: "";
+  position: absolute;
+  top: -0.5em;
+  left: -0.6em;
+  width: 30px;
+  height: 30px;
+  background-image: url(./youtube.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  filter: drop-shadow(0 1px 5px rgba(255, 255, 255, 0.8));
+}
+
+.social-tiktok {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.social-tiktok:before {
+  content: "";
+  position: absolute;
+  top: -0.75em;
+  left: -0.6em;
+  width: 30px;
+  height: 30px;
+  background-image: url(./tiktok.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  filter: drop-shadow(0 1px 5px rgba(255, 255, 255, 0.8));
+}
